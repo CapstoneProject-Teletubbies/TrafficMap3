@@ -11,7 +11,7 @@ import bus3 from "../images/bus3.png"
 import bus4 from "../images/bus4.png"
 import bus5 from "../images/bus5.png"
 
-const baseurl = 'http://trafficmap.co.kr:9000/'
+const baseurl = 'https://trafficmap.co.kr:9000/'
 
 
 const BuildingInfo = (props) => {

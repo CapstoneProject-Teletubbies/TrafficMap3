@@ -15,7 +15,7 @@ import lift from "../images/lift.png";
 import spinner from "../images/spinner.gif";
 
 
-const baseurl = 'http://trafficmap.co.kr:9000/'         //베이스 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+const baseurl = 'https://trafficmap.co.kr:9000/'         //베이스 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
 
 const BuildingDetailInfo = (props) => {

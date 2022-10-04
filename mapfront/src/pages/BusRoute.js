@@ -17,7 +17,7 @@ import { useNavigate } from "react-router-dom";
 import refresh from "../images/refresh.png"
 import { ModalBody } from 'react-bootstrap';
 
-const baseurl = 'http://trafficmap.co.kr:9000/'
+const baseurl = 'https://trafficmap.co.kr:9000/'
 
 function BusRoute(){
     const location = useLocation();

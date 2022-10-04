@@ -311,7 +311,7 @@ function LocationMap() {
       if(locationmap && !elevatormks){        //엘레베이터 받아옴
         $.ajax({
           method: "POST",
-          url: "http://trafficmap.co.kr:9000/api/find/incheonElevator",
+          url: "https://trafficmap.co.kr:9000/api/find/incheonElevator",
           async: false,
           data: {
 
