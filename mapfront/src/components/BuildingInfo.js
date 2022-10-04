@@ -7,7 +7,7 @@ import { useState, useEffect } from 'react';
 
 import elevator from '../images/elevator.png'
 
-const baseurl = 'http://203.237.169.237:9000/'
+const baseurl = 'http://trafficmap.co.kr:9000/'
 
 
 const BuildingInfo = (props) => {

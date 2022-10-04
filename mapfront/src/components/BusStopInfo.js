@@ -4,7 +4,7 @@ import axios from "axios";
 import { useNavigate, useLocation } from "react-router-dom";
 import { useState, useEffect } from 'react';
 
-const baseurl = 'http://203.237.169.237:9000/'
+const baseurl = 'http://trafficmap.co.kr:9000/'
 
 
 const BusStopInfo = (props) => {

@@ -10,7 +10,7 @@ import BusInfo from '../components/BusInfo'
 import { TabContent } from 'react-bootstrap';
 import { isCompositeComponent } from 'react-dom/test-utils';
 
-const baseurl = 'http://203.237.169.237:9000/'
+const baseurl = 'http://trafficmap.co.kr:9000/'
 
 const BusStopDetailInfo = (props)=>{
     const [startXY, setStartXY] = useState();

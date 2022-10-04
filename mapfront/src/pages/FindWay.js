@@ -18,7 +18,7 @@ import charging from "../images/charging_station_icon.png"
 import elevator from "../images/elevator.png";
 
 
-const baseurl = 'http://203.237.169.237:9000/'         //베이스 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+const baseurl = 'http://trafficmap.co.kr:9000/'         //베이스 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
 
 function FindWay(props){
@@ -532,7 +532,7 @@ function FindWay(props){
             if(map && !elevatormks){        //엘레베이터 받아옴
                 $.ajax({
                   method: "POST",
-                  url: "http://203.237.169.237:9000/api/find/incheonElevator",
+                  url: "http://trafficmap.co.kr:9000/api/find/incheonElevator",
                   async: false,
                   data: {
         
@@ -584,7 +584,7 @@ function FindWay(props){
             if(map && !markers){
             $.ajax({                //계단 받아옴
               method: "POST",
-              url: "http://203.237.169.237:9000/api/find/stair",
+              url: "http://trafficmap.co.kr:9000/api/find/stair",
               async: false,
               data: {
       

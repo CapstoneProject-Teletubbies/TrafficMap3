@@ -11,7 +11,7 @@ import {button} from 'react-bootstrap';
 
 import $ from 'jquery';
 
-const baseurl = 'http://203.237.169.237:9000/'         //베이스 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+const baseurl = 'http://trafficmap.co.kr:9000/'         //베이스 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
 
 const SearchBar = (props) => {
