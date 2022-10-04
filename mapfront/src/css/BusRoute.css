@@ -1,0 +1,32 @@
+body{
+    height: 100%;
+}
+::-webkit-scrollbar{
+    display: none;
+}
+.reload-bus{
+    position: fixed;
+    bottom: 30px;
+    right: 15px;
+}
+.busdirbutton{
+    width: 50%;
+    height: 100%;
+    border: 1px ridge  black;
+    border-radius: 2px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    background-color: white;
+}
+.busdirbutton:active{
+    background-color: #EAEAEA;
+}
+#reloadbutton{
+    width: 50px;
+    height: 50px; 
+    text-align: center; 
+    padding: 0px;
+    background-color: white;
+    border-radius: 5px;
+}
